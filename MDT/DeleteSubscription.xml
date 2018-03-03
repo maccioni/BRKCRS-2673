@@ -1,0 +1,8 @@
+#
+# Replace the subscription-id from the periodic subscription reply
+#
+<rpc message-id="101" xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+  <delete-subscription xmlns="urn:ietf:params:xml:ns:yang:ietf-event-notifications" xmlns:netconf="urn:ietf:params:xml:ns:netconf:base:1.0">
+    <subscription-id>2147483733</subscription-id>
+  </delete-subscription>
+</rpc>

@@ -1,0 +1,21 @@
+<rpc-reply message-id="urn:uuid:0dd6fedd-07fd-495c-b82d-4ce084505168" xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" xmlns:nc="urn:ietf:params:xml:ns:netconf:base:1.0">
+  <data>
+    <mdt-oper-data xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-mdt-oper">
+      <mdt-subscriptions>
+        <subscription-id>2147483733</subscription-id>
+        <base>
+          <stream>yang-push</stream>
+          <encoding>encode-xml</encoding>
+          <period>10000</period>
+          <xpath>/memory-ios-xe-oper:memory-statistics/memory-statistic/used-memory</xpath>
+        </base>
+        <type>sub-type-dynamic</type>
+        <state>sub-state-valid</state>
+        <comments/>
+        <updates-in>0</updates-in>
+        <updates-dampened>0</updates-dampened>
+        <updates-dropped>0</updates-dropped>
+      </mdt-subscriptions>
+    </mdt-oper-data>
+  </data>
+</rpc-reply>

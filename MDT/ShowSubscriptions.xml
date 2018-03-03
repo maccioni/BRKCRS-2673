@@ -1,0 +1,9 @@
+<rpc message-id="101" xmlns="urn:ietf:params:xml:ns:netconf:base:1.0">
+  <get>
+    <filter>
+      <mdt-oper-data xmlns="http://cisco.com/ns/yang/Cisco-IOS-XE-mdt-oper">
+        <mdt-subscriptions/>
+      </mdt-oper-data>
+    </filter>
+  </get>
+</rpc>

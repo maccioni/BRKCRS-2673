@@ -1,0 +1,4 @@
+<rpc-reply xmlns="urn:ietf:params:xml:ns:netconf:base:1.0" message-id="101">
+  <subscription-result xmlns='urn:ietf:params:xml:ns:yang:ietf-event-notifications' xmlns:notif-bis="urn:ietf:params:xml:ns:yang:ietf-event-notifications">notif-bis:ok</subscription-result>
+  <subscription-id xmlns='urn:ietf:params:xml:ns:yang:ietf-event-notifications'>2147483733</subscription-id>
+</rpc-reply>
